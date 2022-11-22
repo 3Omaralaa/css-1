@@ -1,0 +1,81 @@
+
+/* selector {
+
+        property:value;
+        property: value;
+
+            } */
+
+
+    /* external style*/
+    .p1 {
+        color: #ff0000
+    }
+
+    .p5 {
+        padding: 0  100%    0   0;
+        background-size:auto;
+            background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:  0% 45%;
+        background-color: blue;
+        background-image :url(../wgbch1xH2OezrMKnol8Ze9UghPT.jpg)
+        
+            }
+
+                        #sparta {
+
+margin: 10px 350px;
+padding: 10px 250px 10px ;
+border-width:  3px 4px ; 
+border-color: blue;
+border-style: solid;
+border: #0051ff 3px solid;
+                                }
+        /*
+        block elements :
+        
+        1-take full width if no width
+        2-add line break
+        3-respect padding,margin,width,height
+        */
+
+        /* 
+        inline elements::
+        
+        1-don't respect width,height
+        2-respect padding and margin [just left and right]
+        3-don't add line break
+        4-allow elements before and after it 
+        */
+
+        /* 
+        inline block elements: 
+        
+        1-allow elements before and after it 
+        2-respect padding,margin,width,height
+        */
+
+        #v {
+            background-color: #EEE;
+            display:block;
+        }
+
+        .d1 {
+        margin: 3px 20px;
+        }
+        
+        .d2 {
+        margin: 3px 30px;
+        
+        }
+        .d3 {
+                margin: 3px 40px;
+        }
+        .d4 {
+            margin: 3px 50px;
+        }
+        .d1,.d2,.d3,.d4 {
+        padding: 10px  5px 7px;
+        color:blue
+        }
